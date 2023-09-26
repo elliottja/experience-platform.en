@@ -401,7 +401,7 @@ The following fields and conditions are required when setting up this audience:
 
 * `EventType: commerce.productViews`
     * `Timestamp: <= 24 hours before now`
-* `EventType is not: commerce.procuctListAdds`
+* `EventType is not: commerce.productListAdds`
     * `Timestamp: <= 24 hours before now, GAP(>= 3 days)`
 * `EventType: application.launch or web.webpagedetails.pageViews or commerce.purchases`
     * `Timestamp: <= 2 days before now`
